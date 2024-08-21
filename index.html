@@ -1,16 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
-</head>
-<body>
-     <main>
-      <section class="JudithContainer"></section>
-      <section class="AhmadContainer"></section>
 
-     </main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section class="JudithContainer">
+        <h1>Mortgage Calculator</h1>
+
+        <form action="" method="get">
+          <label for="amount">Mortgage Amount</label>
+          <input type="text" name="amount" id="amount" />
+
+          <label for="term">Mortgage Term</label>
+          <input type="text" name="term" id="term" />
+
+          <label for="rate">Interest Rate</label>
+          <input type="text" name="rate" id="rate" />
+
+          <p>Mortgage Type</p>
+
+          <input type="radio" name="type" id="repay" value="repay" />
+          <label for="repay" name="type">Repayment</label>
+
+          <input type="radio" name="type" id="interest" value="interest" />
+          <label for="interst" name="type">PHP</label>
+
+          <button type="submit">Calculate Repayments</button>
+        </form>
+      </section>
+
+      <section class="AhmadContainer"></section>
+    </main>
+  </body>
 </html>
+

@@ -16,12 +16,32 @@ main{
     background-color: white;
     height: 50%;
  display: flex;
+
  border-radius: 10px;
+
 }
 
 .JudithContainer{
     width: 50%;
     height: 100%;
+
+   display: flex;
+   flex-direction: column;
+   justify-content:space-around;
+   align-items: center;
+}
+.AhmadContainer{
+    width:50%;
+   background-color: red;
+    height: 100%;
+}
+
+form {
+    display: flex;
+   flex-direction: column;
+   justify-content:space-around;
+   align-items: center;
+
 }
 .AhmadContainer{
     width:50%;
@@ -36,4 +56,5 @@ main{
     border-bottom-right-radius:10px;
     border-bottom-left-radius: 50px;
     ;
+
 }
