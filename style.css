@@ -12,20 +12,24 @@ body {
   justify-content: center;
   font-family: "Nunito", sans-serif;
 }
-main {
-  width: 40%;
-  background-color: white;
-  height: 50%;
-  display: flex;
+main{
+    width: 40%;
+    background-color: white;
+    height: 50%;
+ display: flex;
+
+ border-radius: 10px;
+
 }
 
-.JudithContainer {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+.JudithContainer{
+    width: 50%;
+    height: 100%;
+
+   display: flex;
+   flex-direction: column;
+   justify-content:space-around;
+   align-items: center;
 }
 .AhmadContainer {
   width: 50%;
@@ -34,41 +38,25 @@ main {
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items:first baseline;
-}
+    display: flex;
+   flex-direction: column;
+   justify-content:space-around;
+   align-items: center;
 
-p {
-    color: grey;
-    margin-top: 1rem;
-    font-size: 0.7rem;
 }
+.AhmadContainer{
+    width:50%;
+   
+    height: 100%;
+ 
+    background-image:url('./Screenshot\ from\ 2024-08-21\ 13-41-07.png') ;
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius: 50px;
+    ;
 
-.radiostyle {
-  display: inline-block;
-  box-sizing: border-box;
-  border: 1px solid rgb(148, 146, 146);
-  border-radius: 3px;
-  padding: 5px;
-  margin: 5px;
-  width: 15vw;
-  font-weight: bold;
-}
-
-.radiostyle:has(input[type="radio"]:checked) {
-  border-color: #e7d803;
-  background-color: #e7d80383;
-}
-
-button {
-  border: none;
-  width: 10vw;
-  padding: 10px;
-  margin: 2rem;
-  border-radius: 20px;
-  background-color: #e7d803;
-  font-weight: bold;
 }
 
