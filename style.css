@@ -1,40 +1,67 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    background-color: rgb(199, 236, 248);
-    justify-content: center;
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: rgb(199, 236, 248);
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
 }
-main{
-    width: 40%;
-    background-color: white;
-    height: 50%;
- display: flex;
+main {
+  width: 40%;
+  background-color: white;
+  height: 50%;
+  display: flex;
 }
 
-.JudithContainer{
-    width: 50%;
-    height: 100%;
-   display: flex;
-   flex-direction: column;
-   justify-content:space-around;
-   align-items: center;
+.JudithContainer {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
-.AhmadContainer{
-    width:50%;
-   background-color: red;
-    height: 100%;
+.AhmadContainer {
+  width: 50%;
+  background-color: red;
+  height: 100%;
 }
 
 form {
-    display: flex;
-   flex-direction: column;
-   justify-content:space-around;
-   align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.radiostyle {
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid #b1b0b0;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px;
+  width: 15vw;
+  font-weight: bold;
+}
+
+.radiostyle:hover{
+border-color: #e7d803;
+background-color: #e7d80375;
+
+}
+
+button {
+  border: none;
+  width: 10vw;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #e7d803;
+  font-weight: bold;
 }

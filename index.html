@@ -2,6 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d738257627.js"
+      crossorigin="anonymous"
+    ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
@@ -23,13 +33,19 @@
 
           <p>Mortgage Type</p>
 
-          <input type="radio" name="type" id="repay" value="repay" />
-          <label for="repay" name="type">Repayment</label>
+          <div class="radiostyle">
+            <input type="radio" name="type" id="repay" value="repay" />
+            <label for="repay" name="type">Repayment</label>
+          </div>
 
-          <input type="radio" name="type" id="interest" value="interest" />
-          <label for="interst" name="type">PHP</label>
+          <div class="radiostyle">
+            <input type="radio" name="type" id="interest" value="interest" />
+            <label for="interst" name="type">PHP</label>
+          </div>
 
-          <button type="submit">Calculate Repayments</button>
+          <button type="submit">
+            <i class="fa-solid fa-calculator"></i> Calculate Repayments
+          </button>
         </form>
       </section>
 
