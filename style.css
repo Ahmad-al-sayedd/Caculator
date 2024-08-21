@@ -37,13 +37,19 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  align-items:first baseline;
+}
+
+p {
+    color: grey;
+    margin-top: 1rem;
+    font-size: 0.7rem;
 }
 
 .radiostyle {
   display: inline-block;
   box-sizing: border-box;
-  border: 1px solid #b1b0b0;
+  border: 1px solid rgb(148, 146, 146);
   border-radius: 3px;
   padding: 5px;
   margin: 5px;
@@ -51,17 +57,18 @@ form {
   font-weight: bold;
 }
 
-.radiostyle:hover{
-border-color: #e7d803;
-background-color: #e7d80375;
-
+.radiostyle:has(input[type="radio"]:checked) {
+  border-color: #e7d803;
+  background-color: #e7d80383;
 }
 
 button {
   border: none;
   width: 10vw;
-  padding: 5px;
+  padding: 10px;
+  margin: 2rem;
   border-radius: 20px;
   background-color: #e7d803;
   font-weight: bold;
 }
+
