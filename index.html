@@ -20,16 +20,23 @@
   <body>
     <main>
       <section class="JudithContainer">
-        <h1>Mortgage Calculator</h1>
+        <div class="heading" >  <h1>Mortgage Calculator</h1>
+            <button>Clear all</button></div>
+      
 
         <form action="" method="get">
-          <label for="amount">Mortgage Amount</label>
-          <input type="text" name="amount" id="amount" />
-
-          <label for="term">Mortgage Term</label>
+            <label class="firstLabel" for="amount">Mortgage Amount</label>
+            <div class="firstInputHandle">
+               
+                <span>$</span>
+                <input type="text" name="amount" id="amount" />
+            </div>
+        
+          <section class="handleTwoInputs"></section>
+          <label class="secondLabel" for="term">Mortgage Term</label>
           <input type="text" name="term" id="term" />
 
-          <label for="rate">Interest Rate</label>
+          <label class="thirdLabel" for="rate">Interest Rate</label>
           <input type="text" name="rate" id="rate" />
 
           <p>Mortgage Type</p>
