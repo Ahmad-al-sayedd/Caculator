@@ -114,6 +114,16 @@ h1{
         border: none;
 
     }
+    .firstInputHandle  input::placeholder{
+        height: 2rem;
+     ;
+        width: 85%;
+        
+        border: none;
+        content: '';
+
+    }
+
 
 
 .handleTwoInputs{
